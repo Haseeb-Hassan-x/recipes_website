@@ -1,0 +1,83 @@
+
+header h1 {
+    padding-top: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--off-white);
+    font-size: 60px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 227, 226);
+    margin: 200px 150px 30px 150px;
+    padding: 100px;
+    background-color: rgb(223, 227, 226);
+    border-radius: 15px;
+}
+
+.bobotie-img,
+.potjie-img {
+    object-fit: cover;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.extra-info {
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.ingredients-list,
+h3 {
+    text-align: center;
+    color: black;
+    list-style: none;
+    padding: 20px;
+
+}
+
+.instructions-list {
+
+    text-align: center;
+    color: black;
+    list-style: none;
+    padding: 20px;
+}
+
+.notes {
+    text-align: center;
+    border: solid 2px black;
+    color: black;
+    padding: 40px;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+
+}
+
+
+
+.origin-bobotie,
+.origin-potjie {
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    border: solid 2px black;
+    font-weight: 400;
+    color: black;
+}

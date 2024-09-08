@@ -1,0 +1,150 @@
+.mainbox {
+    display: flex;
+    gap:100px;
+    /* padding: 25px; */
+}
+
+.e-sel-main {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.box-food {
+    /* background-color: var(--off-white); */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.box-food h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px auto;
+}
+
+.sel-image {
+    width: 450px;
+    height: 350px;
+}
+
+/* @keyframes h1 {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} */
+
+.left-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+.left-selection img {
+    border-radius: 15%;
+    margin: 2em;
+    height: 42vh;
+}
+
+ .box-food img {
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    width: 90%;
+
+}
+
+.left-selection {
+    animation-name: left;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+
+}
+
+.right-selection {
+    animation-name: right;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+} */
+
+/* @keyframes right {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes left {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes img {
+    0% {
+        transform: scale(0.5);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+} */
+
+
+.right-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+
+    width: 70vh;
+
+}
+
+.right-selection img {
+    border-radius: 15%;
+    margin: 2em;
+
+}
+
+.mainbox button {
+    display: flex;
+    background-color: var(--button-green);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.mainbox button:hover {
+    background-color: #3f3f3f;
+
+}
+
+.mainbox button a:hover {
+    color: var(--button-green);
+}
+
+.mainbox button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+}}

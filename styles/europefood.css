@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 75px auto;
+    padding: 30px;
+    width: 80%;
+    background-color: rgb(223, 227, 226)
+}
+
+.bobotie-img,
+.potjie-img {
+    object-fit: cover;
+    align-items: center;
+}
+
+.extra-info {
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.instruction-container > h3,
+.ingredients-container > h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ingredients-list,
+h3 {
+    /* font-family: "Macondo", cursive; */
+    text-align: left;
+    color: black;
+    list-style: square;
+    padding: 20px;
+
+}
+
+.ingredients-list > * {
+    padding: 5px;
+}
+
+.prep-list {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+}
+
+.prep-list ~ li {
+    text-align: center;
+}
+.prep-list > * {
+    padding: 7px;
+}
+
+.instructions-list > * {
+    padding: 5px;
+}
+
+.instructions-list {
+    /* font-family: "Macondo", cursive; */
+    text-align: left;
+    color: black;
+    /* list-style: none; */
+    padding: 20px;
+}
+
+.notes {
+    /* font-family: "Macondo", cursive; */
+    text-align: center;
+    border: solid 2px black;
+    color: var(--off-white);
+    padding: 40px;
+}
+
+
+
+h1 {
+    /* font-family: "Macondo", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+    color: var(--off-white);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+
+}
+
+
+
+.origin-bobotie,
+.origin-potjie {
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    border: solid 2px black;
+    font-weight: 400;
+    color: black;
+}
